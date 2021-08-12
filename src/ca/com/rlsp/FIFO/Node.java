@@ -28,4 +28,12 @@ public class Node {
     public void setNodeReference(Node nodeReference) {
         this.nodeReference = nodeReference;
     }
+
+
+    @Override
+    public String toString() {
+        return "No{" +
+                "object=" + object +
+                '}';
+    }
 }
